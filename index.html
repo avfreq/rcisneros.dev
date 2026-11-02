@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" contnet="text/html"; charset="UTF-8">
+    <meta http-equiv="Content-Type" contnet="text/html"; charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='All about web design, web development, coding, html, css, javascript and a little about me.'>
+    <link rel="icon" type="./img/favicon-32.png" href="favicon.ico">
+    <!-- begin google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <!-- end google fonts -->
+
+    <meta name='viewport' content="width=device-width, initial-scale-1">
+    <meta name='author' content='Raul Cisneros'>
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src='script.js'></script> <!-- always use 'defer' -->
+    <title>rcisneros</title>
+</head>
+<body>
+    <!-- Landing page video section -->
+    <section class="showcase">
+        <div class="video-container">
+            <video src="vid/corpus_drive.mp4" autoplay muted loop playsinline></video> <!--'playinline' is required for the video to play on mobile phones-->
+        </div>
+        <div class="content">
+            <h1 class = "asimovian-regular">RCISNEROS.DEV</h1>
+            <!-- menu section -->
+            <div class="main-menu-container">
+                <button onclick="location.href='#about'"class='btn about'>About</button>
+                <button onclick="location.href='#audio'"class='btn audio'>Featured Audio</button>
+                <button onclick="location.href='#video'"class='btn video'>Featured Video</button>
+                <button onclick="location.href='projects.html'"class='btn other'>Projects</button>
+                <button onclick="location.href='https//rcisnerosjr.com/blog/wp-admin'"class='btn other'>Blog</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- About section begins here -->
+    <section id="about">
+        <h1>About</h1>
+        <div class='logo-container'>
+            <a href='https://www.npmjs.com/'><img src="img/npm.svg" alt="npm logo" class="logo npm"></a>
+            <a href='https://github.com/avfreq'><img src="img/github.svg" alt="github hub logo" class="logo github"></a>
+            <a href='https://developer.mozilla.org/en-US/'><img src="img/mdn.svg" alt="mdn logo" class="logo mdn"></a>
+            <a href='https://www.stackoverflow.com'><img src="img/stackoverflow.svg" alt="stackoverflow logo" class="logo stackoverflow"></a>
+            <a href='https://www.instagram.com/webdevvibes/'><img src="img/instagram.png" alt="instagram logo" class="logo instagram"></a>
+            <a href='https://git-scm.com/'><img src="img/git-color.png" alt="git logo" class="logo git"></a>
+            <a href='https://codepen.io/'><img src="img/codepen.png" alt="code pen" class="logo codepen"></a>
+        </div>
+    
+        <p>--</p>
+        <!-- section -->
+
+        <div class="outer-container">
+            <h2 id='audio'>Featured Audio</h2> <!-- My music links-->
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689468833&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/vonnboyd" title="VonnBoyd" target="_blank" style="color: #cccccc; text-decoration: none;">VonnBoyd</a> · <a href="https://soundcloud.com/vonnboyd/la-luna" title="La Luna" target="_blank" style="color: #cccccc; text-decoration: none;">La Luna</a></div>
+        </div>
+
+        <p>--</p>
+        <!-- Quote section -->
+        <div class="outer-container">
+            <h2>Favorite Quote</h2>
+            <p>
+                Of all the things I've lost, I miss my mind the most.
+            </p>
+        </div>
+
+        <!-- Snippet section -->
+        <!-- <div class="outer-container">
+            <h2>Favorite Javascript Snippet &raquo;</h2>
+            <div class="jcode-container">
+                <pre>
+                    <code class='jcode'>
+                        let coffee = pikesplace;
+                        if (coffee === pikesplace && creamer && sugar) {
+                            alert('Ahh, good coffee!')
+                        };
+                    </code>
+                </pre>
+            </div>
+        </div> -->
+
+        <p>--</p>
+        <!-- Equipment section -->
+        <div class="outer-container">
+            <h2>Tools of the trade</h2>
+            <p>Keyboard: Keychron K3</p>
+            <p>CPU: Mackbook Pro 16" M1 Max 2021</p>
+            <p>Monitor: LG 27" x2</p>
+            <p>Mouse: MX Master 3</p>
+        </div>
+
+        <p>--</p>
+        <!-- section -->
+        <div class="outer-container">
+            <h2>Latest Movies & TV Shows</h2>
+            <div class='list-container'>
+                <ul class='list'>
+                    <li>Amazon Prime Video: Reacher</li>
+                    <li>Amazon Prime Video: Lioness</li>
+                    <li>Amazon Prime Rental: Mutiny</li>
+                </ul>
+            </div>
+        </div>  
+
+        <p>--</p>
+
+        <div class="outer-container">
+            <h2 id='video'>Featured Video</h2> <!-- My video links-->
+            <iframe width="auto" height="315" src="https://www.youtube.com/embed/jldJKiQRM-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer class='footer'>Raul Cisneros &copy 2026</footer>
+</body>
+</html>

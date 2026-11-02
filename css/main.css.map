@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,QAAI;AACJ,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,QAAI",
+    "sources": [
+        "../projects/three_columns/src/scss/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
